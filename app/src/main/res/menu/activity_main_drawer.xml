@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/compress"
+            android:icon="@drawable/compress"
+            android:title="Compress" />
+        <item
+            android:id="@+id/decompress"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Decompress" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="History" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/rate_me"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate me" />
+        </menu>
+    </item>
+
+</menu>
